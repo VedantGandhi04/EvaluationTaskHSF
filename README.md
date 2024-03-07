@@ -59,6 +59,6 @@ Post-training, the model's accuracy and loss on the test set are computed.
 The trained model shows an accuracy of 0.77.
 
 |--------|---------|
-|![Dataset](dataset)|![Loss and Accuracy graph](results/lossAndAccuracy.png)
+|![Dataset](dataset/dataset3d.png)|![Loss and Accuracy graph](results/lossAndAccuracy.png)
 
 
