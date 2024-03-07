@@ -20,7 +20,7 @@ The dataset consists of 3 coordinate parameters (x, y, z) and a label (s == sign
   ```
     julia> Pkg.instantiate()
   ```
-- Install the required packages into your local Julia environment. (You can refer [project.toml] for the required packages.)
+- Install the required packages into your local Julia environment. (You can refer [project.toml]( for the required packages.)
   ```
   julia> Pkg.add("package_name")
   ```
@@ -57,3 +57,8 @@ To keep track of loss and accuracy, for each epoch we store it in loss_history a
 Post-training, the model's accuracy and loss on the test set are computed. 
 
 The trained model shows an accuracy of 0.77.
+
+|--------|---------|
+|![Dataset](dataset)|![Loss and Accuracy graph](results/lossAndAccuracy.png)
+
+
