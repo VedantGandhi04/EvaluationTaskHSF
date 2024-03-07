@@ -57,8 +57,8 @@ To keep track of loss and accuracy, for each epoch we store it in loss_history a
 Post-training, the model's accuracy and loss on the test set are computed. 
 
 The trained model shows an accuracy of 0.77.
-
+| Dataset |  Loss and Accuracy graph 
 |--------|---------|
-|![Dataset](dataset/dataset3d.png)|![Loss and Accuracy graph](results/lossAndAccuracy.png)
+|![Dataset](results/dataset3d.png)|![Loss and Accuracy graph](results/lossAndAccuracy.png)
 
 
