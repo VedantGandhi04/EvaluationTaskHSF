@@ -20,6 +20,8 @@ The dataset consists of 3 coordinate parameters (x, y, z) and a label (s == sign
   ```
     julia> Pkg.instantiate()
   ```
+  On activating the enviroment it will start downloading the packages present in the project.toml file.
+  
 - Install the required packages into your local Julia environment. (You can refer [project.toml]( for the required packages.)
   ```
   julia> Pkg.add("package_name")
