@@ -2,7 +2,7 @@
 using Flux, Statistics, MLDatasets, DataFrames, OneHotArrays, Plots, CSV
  
 # Importing the dataset
-df = CSV.read("/home/vedant/JULIA/flux/dataset.csv", DataFrame)
+df = CSV.read("dataset/dataset.csv", DataFrame)
  
 # Splitting the dataset into train and test sets in the ratio 4:1
 split_index = Int(0.8 * size(df, 1))
